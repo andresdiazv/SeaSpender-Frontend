@@ -1,12 +1,13 @@
 import React from "react";
+import "../App.css"; // Import App.css
 
 export default function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+      <nav className="navbar navbar-expand-lg navbar-dark top-navbar"> {/* Add the top-navbar class */}
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Sea Spender
+            SeaSpender
           </a>
           <button
             className="navbar-toggler"
