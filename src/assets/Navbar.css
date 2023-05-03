@@ -1,12 +1,19 @@
+
 .nav-link {
-    color: #333;
-  }
-  
-  .nav-link:hover {
-    color: #007bff;
-  }
-  
-  .top-navbar {
-    background-color: #000;
-  }
-  
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.top-navbar {
+  background-color: #000;
+}
+
+.logo-img {
+  height: 70px;
+  width: auto;
+  margin-bottom: -20px;
+  margin-top: -20px;
+}

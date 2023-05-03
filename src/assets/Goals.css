@@ -1,0 +1,50 @@
+.goal-container {
+    margin-bottom: 20px;
+}
+
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.goal-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+.progress-wrapper {
+    position: relative;
+}
+
+.button-container {
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 4px 10px;
+    margin: 0 2px;
+    transition: color 0.3s;
+    background-color: transparent;
+    color: #007bff;
+}
+
+button:hover {
+    color: #0056b3;
+}
+

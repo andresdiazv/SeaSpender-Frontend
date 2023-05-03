@@ -1,0 +1,27 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.float-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.float-child {
+  background-color: #cfcfd0;
+  width: 40%;
+  float: left;
+  padding: 20px;
+  border: 2px solid #cfcfd0;
+  border-radius: 5px;
+  margin-right: 20px;
+}

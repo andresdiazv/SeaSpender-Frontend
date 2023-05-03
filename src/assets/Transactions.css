@@ -1,0 +1,9 @@
+
+.transactions-container {
+    margin-top: 50px;
+}
+
+.transactions-header {
+   display: flex;
+    justify-content: center; 
+}
