@@ -1,0 +1,30 @@
+
+.character-container {
+    margin-top: 50px;
+  }
+  
+  .level-progress-bar {
+    margin-bottom: 10px;
+    width: 25%;
+    margin: 0 auto;
+  }
+  
+  .level-info {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .character-image img {
+    max-width: 200px;
+    border-radius: 50%;
+    border: 7px solid;
+    margin-top: 20px;
+  }
+  
+  .centered {
+    display: flex;
+    justify-content: center;
+  }

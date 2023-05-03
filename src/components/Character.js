@@ -1,9 +1,10 @@
 import React from "react";
-import characterImage from "../assets/character-image.jpg"; // Import your character image here
+import characterImage from "../assets/orange-fish.png";
+import "../assets/Character.css";
 
 const Character = () => {
   const level = 1;
-  const exp = 50;
+  const exp = 0;
   const maxExp = 100;
 
   const expPercentage = (exp / maxExp) * 100;
@@ -25,7 +26,7 @@ const Character = () => {
           </div>
         </div>
       </div>
-      <div className="character-image">
+      <div className="character-image centered">
         <img src={characterImage} alt="Character" />
       </div>
     </div>
