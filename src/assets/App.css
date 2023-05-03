@@ -1,16 +1,23 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
 
-body,
-html {
-  height: 100%; 
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+code, pre {
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
 }
 
 .app-container {
   display: flex;
   flex-direction: column;
-  height: 100%;
-}
-
-.main-content {
-  background-color: #006994;
   flex: 1;
 }
+

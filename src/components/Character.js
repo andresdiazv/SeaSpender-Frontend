@@ -13,17 +13,18 @@ const Character = () => {
     <div className="character-container">
       <div className="level-progress-bar">
         <div className="level-info">Level {level}</div>
-        <div className="progress">
-          <div
-            className="progress-bar"
-            role="progressbar"
-            style={{ width: `${expPercentage}%` }}
-            aria-valuenow={exp}
-            aria-valuemin="0"
-            aria-valuemax={maxExp}
-          >
-            {exp}/{maxExp} EXP
+        <div className="progress-wrapper">
+          <div className="progress">
+            <div
+              className="progress-bar"
+              role="progressbar"
+              style={{ width: `${expPercentage}%` }}
+              aria-valuenow={exp}
+              aria-valuemin="0"
+              aria-valuemax={maxExp}
+            ></div>
           </div>
+          <div className="exp-text"> {exp}/{maxExp} EXP </div>
         </div>
       </div>
       <div className="character-image centered">
